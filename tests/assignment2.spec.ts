@@ -8,6 +8,9 @@ test('test', async ({ page }) => {
   await page.getByRole('radio', { name: 'Female' }).check();
   await page.getByRole('textbox', { name: 'Mobile Number' }).fill('9876543210');
   await page.getByRole('checkbox', { name: 'Sports' }).check();
+  await page.getByRole('button', { name: 'Choose File' }).setInputFiles('test-data/Screenshot 2026-03-04 170350.png');
+  await page.getByRole('textbox', { name: 'Current Address' }).click();
+  await page.getByRole('textbox', { name: 'Current Address' }).fill('ABC Villa\nHarrisburg');
   await page.locator('#state svg').click();
   await page.getByRole('option', { name: 'Rajasthan' }).click();
   await page.locator('#city svg').click();
