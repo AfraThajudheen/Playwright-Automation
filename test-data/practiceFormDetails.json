@@ -1,0 +1,17 @@
+{
+    "url" : "https://demoqa.com/automation-practice-form",
+
+
+    "fName" : "Afra",
+    "lName" : "Thajudheen",
+    "email" : "afrathajudheen12@email.com",
+    "mobile" : "9876543210",
+    "address" : "ABC Arcade \nJaiselmer",
+
+    
+    "year": "2003",
+    "month": "6",
+    "day": "23"
+
+
+}

@@ -13,5 +13,8 @@ test('test', async ({ page }) => {
   await page.locator('#city svg').click();
   await page.getByRole('option', { name: 'Jaiselmer' }).click();
   await page.getByRole('button', { name: 'Submit' }).click();
+  
+  
   await expect( page.getByText('Thanks for submitting the form')).toBeVisible();
+  await expect(page.locator('tbody')).toContainText('Afra Thajudheen');
 });

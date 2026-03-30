@@ -1,0 +1,25 @@
+
+[
+
+  {
+    "fName": "Alice",
+    "lName": "Brown",
+    "email": "alice@test.com",
+    "mobile" : "9812345670",
+    "address" : "Amsterdam, Netherlands"
+  },
+  {
+    "fName": "Bob",
+    "lName": "Smith",
+    "email": "bob@test.com",
+    "mobile" : "9871234560",
+    "address" : "Queensland, Australia"
+  },
+  {
+    "fName": "Charlie",
+    "lName": "Johnson",
+    "email": "charlie@test.com",
+    "mobile" : "9876123450",
+    "address" : "Harrisburg, Pennsylvania"
+  }
+]
