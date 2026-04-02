@@ -1,0 +1,22 @@
+{
+
+    "url7" : "https://demowebshop.tricentis.com",
+
+    
+    "user1":
+        {
+            "email" : "annaben123@email.com",
+            "password" : "Annaben23@Demo"
+        },
+    "user2":
+        {
+            "email" : "ibbusyed@gmail.com",
+            "password" : "9876543210"
+        },  
+        
+    "recipientdetails":  {
+            "recipientName": "Ibbu",
+            "recipientEmail": "ibbusyed@gmail.com"
+ 
+ }
+}

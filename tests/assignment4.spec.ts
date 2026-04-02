@@ -13,5 +13,5 @@ test ( 'Filling the Practice Form', async ({page}) => {
 
     await pPage.fillTheForm(fName, lName, email, mobile, address);
 
-    await expect(page.locator('#example-modal-sizes-title-lg')).toContainText('Thanks for submitting the form');
+    await expect(page.getByText('Thanks for submitting the form')).toBeVisible();
 })
